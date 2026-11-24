@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "id": "autosell-mods",
+  "version": "${version}",
+  "name": "AutoSell Mods",
+  "description": "Gencash Miner (3x3-10x10), AutoFood, ESP 3D, tracery od celownika, nametagi 3D. Klawisz: Right Ctrl.",
+  "authors": ["AutoSell"],
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "client": ["pl.autosell.mods.ModsEntry"]
+  },
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "minecraft": "~1.21.4",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
